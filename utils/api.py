@@ -2,7 +2,7 @@ import requests
 import json
 
 def get_chatbot_response(user_input):
-    api_url = "http://localhost:3000/chat"
+    api_url = "https://stitch-warm-clef.glitch.me/chat"
     payload = {'message': user_input}
     headers = {'Content-Type': 'application/json'}
     try:
